@@ -41,8 +41,8 @@ html{
   main {
       padding: 20px;
   }
-
-    .h-size-pad{
+/*----------------------------------большие белые кноки------------------------------------*/
+    .size-pad{
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -57,6 +57,10 @@ html{
     filter: brightness(90%);
   }
   
+  .card p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
   
   h1{
     font-family: "Roboto",sans-serif;
@@ -99,14 +103,6 @@ html{
    padding: 10px;
   }
   
-  footer {
-      text-align: center;
-      padding: 5px;
-      background: #3f4859 ;
-      color:white;
-      height: 50px;
-      margin-top: 10%;
-  }
   
   .settings-container {
       position: fixed;
@@ -153,7 +149,7 @@ html{
       max-height: 200px; /* Максимальная высота раскрывающегося меню */
   }
   
-  /* --------------------------------главная таблица------------------------------*/
+/* ----------------------------------------главная таблица-------------------------------------*/
 
   #main-table{
     max-width: 100%;
@@ -167,9 +163,11 @@ html{
       width: 1500px;
   }
   
-  /* --------------------------------главная таблица------------------------------*/
+/* ----------------------------------главная таблица--------------------------------------------*/
   
   
+
+/*-------------------------------------левая часть таблицы-------------------------------------*/
   
   
   .navmenu li {
@@ -177,46 +175,19 @@ html{
     margin-bottom: 10px; /* Отступ между кнопками */
   }
   
-  
-  .mini_menu {
-      border-right: 1px solid #2d2f36;
-      padding-right: 24px;
-  }
-  
-  .mini_menu nav {
-      border-bottom: 1px solid #2d2f36;
-      padding-bottom: 24px;
-      margin-bottom: 24px;
-  }
-  
-  .mini_menu nav ul li a{
-      display: flex;
-      color: #acacb9;
-      padding: 10px 15px 10px 0;
-      margin-bottom: 2px;
-      border-radius: 8px;
-      line-height: 1;
-      transition: 0.2s;
-      gap: 8px;
-      align-items: center;
-  }
-  
-  .mini_menu nav ul li a.active:not(:hover),
-  .mini_menu nav ul li a:hover{
-      background: #1e1e25;
-      padding: 10px 16px;
-  }
-  
-  .mini_menu nav ul li a.active:not(:hover) svg path,
-  .mini_menu nav ul li a:hover svg path{
-      fill: #76fa76;
-  }
-  
-  .mini_menu nav ul li ul{
-      display: none;
-  }
-  
   .mini_menu nav ul li a span{
       padding-left: 0 !important;
   }
   
+/*--------------------------------------------якорь-------------------------------------------*/
+  
+  footer {
+    text-align: center;
+    padding: 5px;
+    background: #3f4859 ;
+    color:white;
+    height: 50px;
+    margin-top: 10%;
+}
+
+/*--------------------------------------------якорь-------------------------------------------*/
