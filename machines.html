@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Выбор станка </title>
+    <link rel="stylesheet" href="stylesForMachines.css">
+  </head>
+  <body>
+
+    <header>
+      <a href="index.html">
+      <h1 id="brand-name">Б. Е. Бутомы</h1>
+      <p class="tagline">Судостроительный завод</p>
+      <svg viewBox="0 0 640 512" width="100" title="shoe-logo" id="logo">
+      </svg>
+      </a>
+    </header>
+    <h2>Выбор станка</h2>
+    <p class="category-description">Здесь вы можете выбрать нужный вам станок.</p>
+    <div class="item">
+
+      <figure>
+        <img src="https://barsprom.ru/upload/iblock/3b3/3b3c1b7239e95230bbfecca18ef95b2a.jpg" alt="фото караблика">
+        <!-- full size image at: https://images.unsplash.com/photo-1560072810-1cffb09faf0f -->
+        <figcaption>Photo by Maksim Larin</figcaption>
+
+      </figure>
+
+      <p class="price">Выберите станок</p>
+      <label for="size-select">Цех:</label>
+      <select name="size" id="size-select">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3" disabled>3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7" disabled>7</option>
+        <option value="8">8</option>
+      </select>
+      <label for="color-select">Участок:</label>
+      <select name="color" id="color-select">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+      <label for="quantity-select">Станок:</label>
+      <select name="quantity" id="quantity-select">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <button type="button">Выбрать</button>
+    </div>
+
+  </body>
+</html>
