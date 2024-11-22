@@ -11,13 +11,6 @@ content="width=device-width, initial-scale=1.0">
       <header>
           <h1 >Мониторинг производственного оборудования</h1> <!-- Заголовок -->
       </header>
-      <nav>
-          <ul>
-            <li class="btn-new"><a href="#dashbroard" id="color-a">Панель управления</a></li> <!-- Ссылки на разделы -->
-            <li class="btn-new"><a href="#reports" >Отчеты</a></li>
-            <li class="btn-new"><a href="#setting" >Настройки</a></li>
-          <ul>
-      </nav>
       <div class="settings-container">
             <label for="settings-toggle" class="settings-button" id="set-right">☰</label>
             <input type="checkbox" id="settings-toggle" />
@@ -32,21 +25,32 @@ content="width=device-width, initial-scale=1.0">
           <td id="wrap-block-left">
             <aside>
               <nav class="bg-cont" >
-                <ul class="navmenu bg-cont-navmenu">
+                <ul class="navmenu">
+                  <h3>Быстрый доступ</h3>
                   <li>
-                    <a href="index.html" >Главная</a>
+                    <div class="card-left" id = "box-new">
+                    <a href="index.html">Главная</a>
+                  </div>
                   </li>
                   <li>
-                      <a href="regist.html" v>Страница регистрации</a>
+                    <div class="card-left" id = "box-new">
+                      <a href="regist.html">Страница регистрации</a>
+                    </div>
                     </li>
                   <li>
-                    <a href="/html-css/" class="bg-cont-navmenu">HTML/CSS</a>
+                    <div class="card-left" id = "box-new">
+                    <a href="/html-css/"  >Графики</a>
+                    </div>
                   </li>
                   <li>
-                    <a href="/html-teplates/" class="bg-cont-navmenu">HTML Шаблоны</a>
+                    <div class="card-left" id = "box-new">
+                    <a href="/html-teplates/"  >Отчеты</a>
+                    </div>
                   </li>
                   <li>
-                    <a href="/nodejs/" class="bg-cont-navmenu">Node.JS</a>
+                    <div class="card-left" id = "box-new">
+                    <a href="/nodejs/"  >Настройки</a>
+                    </div>
                   </li>
                 </ul>
               </nav>

@@ -13,7 +13,7 @@ html{
   header {
       background: #3f4859;
       color:white;
-      padding: 20px;
+      padding: 1px;
       text-align: center;
       font-family: "Roboto", sans-serif;
   }
@@ -30,11 +30,13 @@ html{
   
   nav ul li {
       display: inline;
+      border-radius: 5px;
+      margin-top: 20px;
   }
   
   nav ul li a {
-      color: white;
-      text-decoration: none;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
   }
   
   main {
@@ -42,18 +44,18 @@ html{
   }
 /*----------------------------------плитки-кнопки------------------------------------*/
     .size-pad{
-    margin-top: 15px;
+    margin-top: 6px;
     margin-bottom: 15px;
 }
   .card {
       background: white;
-      padding: 2%;
+      padding: 22px;
       margin: 10px 0;
       border-radius: 5px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   .card:hover{
-    filter: brightness(90%);
+    filter: brightness(95%);
   }
   
   .card p{
@@ -87,7 +89,7 @@ html{
   #box-new:hover {
   transform: translate(0,-3px);
   
-  box-shadow: 0 20px 40px 0 rgba(33, 150, 243, 0.6);
+  box-shadow: 0 20px 40px 0 rgba(54, 66, 231, 0.6);
   }
   
   #color{
@@ -110,24 +112,27 @@ html{
    background-color: rgb(255 255 255 / 67%);
    border-radius: 10px;
    padding: 10px;
-   height: 756px;
+   height: 695px;
+
   }
 
 /*-----------------------------------------фон под плитками------------------------------------------------*/
 
 
+/*-----------------------------------------размеры в быстром доступе----------------------------------------*/
 
-/*-----------------------------------------растояние между кнопками------------------------------------------------*/
-
-.bg-cont-navmenu li{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+.card-left{
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card-left:hover{
+  filter: brightness(95%);
 }
 
-/*-----------------------------------------растояние между кнопками------------------------------------------------*/
-
+/*-----------------------------------------размеры в быстром доступе----------------------------------------*/
 
 
 /*---------------------------------------меню справа сверху в углу------------------------------------*/
