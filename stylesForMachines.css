@@ -1,4 +1,3 @@
-
 /* ----- RESET ----- */
 * {
   padding: 0;
@@ -53,7 +52,7 @@ header svg {
 
 h2,
 .category-description {
-  background-image: linear-gradient(90deg,#005da8, #00538a);
+  background-image: linear-gradient(90deg, #005da8, #00538a);
   width: calc(100% - calc(2.2rem * 2));
   max-width: 640px;
   padding: 2.8rem;
@@ -136,7 +135,7 @@ h2 {
   transition: opacity 200ms ease-out;
 }
 
-.item figure:hover + .description,
+.item figure:hover+.description,
 .description:hover {
   opacity: 1;
 }
@@ -188,7 +187,7 @@ label {
   margin-bottom: 0.7rem;
 }
 
-a{
+a {
   color: white;
-text-decoration: none;
+  text-decoration: none;
 }

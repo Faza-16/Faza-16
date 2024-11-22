@@ -1,229 +1,197 @@
-html{
+html {
     height: 100%;
-  }
-  
-  body {
-      font-family: "Roboto",sans-serif;
-  
-       margin: 0;
-       padding: 0;
-       background-color: rgba(46, 82, 150, 0.85);
-  }
-  
-  header {
-      background: #3f4859;
-      color:white;
-      padding: 1px;
-      text-align: center;
-      font-family: "Roboto", sans-serif;
-  }
-  
-  nav {
-  
-      text-align: center;
-  }
-  
-  nav ul {
-      list-style: none;
-      padding: 0;
-  }
-  
-  nav ul li {
-      display: inline;
-      border-radius: 5px;
-      margin-top: 20px;
-  }
-  
-  nav ul li a {
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-  }
-  
-  main {
-      padding: 20px;
-  }
-/*----------------------------------плитки-кнопки------------------------------------*/
-    .size-pad{
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(46, 82, 150, 0.85);
+}
+
+header {
+    background: #3f4859;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Плитки-кнопки */
+.size-pad {
     margin-top: 6px;
     margin-bottom: 15px;
 }
-  .card {
-      background: white;
-      padding: 22px;
-      margin: 10px 0;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  .card:hover{
-    filter: brightness(95%);
-  }
-  
-  .card p{
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  
-  h1{
-    font-family: "Roboto",sans-serif;
-    color: #ededed;
-  }
-  
-  .btn-new {
-  transition: 0.5s;
-  font-size: 20px;
-  }
-  
-  .btn-new:hover {
-  transform: translate(0,-3px);
-  box-shadow: 0 20px 40px 0 rgba(0, 54, 23, 0.6);
-  }
 
-  .btn-new a{
-    padding-right: 10px;
-  }
-
-  #box-new {
-  transition: 0.5s;
-  }
-  
-  #box-new:hover {
-  transform: translate(0,-3px);
-  
-  box-shadow: 0 20px 40px 0 rgba(54, 66, 231, 0.6);
-  }
-  
-  #color{
-    background-color: white;
-    color: black;
-    border-radius: 5px;
-  }
-  
-  a{
-    color: black;
-  text-decoration: none;
-  }
-/*----------------------------------плитки-кнопки------------------------------------*/
-
-
-
-/*-----------------------------------------фон под плитками------------------------------------------------*/
-
-  .bg-cont{
-   background-color: rgb(255 255 255 / 67%);
-   border-radius: 10px;
-   padding: 10px;
-   height: 695px;
-
-  }
-
-/*-----------------------------------------фон под плитками------------------------------------------------*/
-
-
-/*-----------------------------------------размеры в быстром доступе----------------------------------------*/
-
-.card-left{
+.card,
+.card-left {
     background: white;
-    padding: 15px;
+    padding: 22px;
     margin: 10px 0;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.card-left:hover{
-  filter: brightness(95%);
+
+.card:hover,
+.card-left:hover {
+    filter: brightness(95%);
 }
 
-/*-----------------------------------------размеры в быстром доступе----------------------------------------*/
+.card p,
+.card-left p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #ededed;
+}
 
-/*---------------------------------------меню справа сверху в углу------------------------------------*/
-  
-  .settings-container {
-      position: fixed;
-      top: 10px;
-      right: 20px;
-  }
-  
-  .settings-button {
-      cursor: pointer;
-      font-size: 24px;
-  }
-  
-  #set-right{
+.btn-new {
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.btn-new:hover {
+    transform: translate(0, -3px);
+    box-shadow: 0 20px 40px 0 rgba(0, 54, 23, 0.6);
+}
+
+.btn-new a {
+    padding-right: 10px;
+}
+
+#box-new {
+    transition: 0.5s;
+}
+
+#box-new:hover {
+    transform: translate(0, -3px);
+    box-shadow: 0 20px 40px 0 rgba(54, 66, 231, 0.6);
+}
+
+#color {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Фон под плитками */
+.bg-cont {
+    background-color: rgb(255 255 255 / 67%);
+    border-radius: 10px;
+    padding: 10px;
+    height: 695px;
+}
+
+/* Размеры в быстром доступе */
+.card-left {
+    padding: 15px;
+}
+
+/* Меню справа сверху в углу */
+.settings-container {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+}
+
+.settings-button {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#set-right {
     text-align: right;
     position: relative;
     left: 160px;
-  }
-  
-  #settings-toggle {
-      display: none;
-  }
-  
-  .dropdown-content {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.3s ease-out;
-      background-color: #f9f9f9;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      width: 180px;
-  }
-  
-  .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-  }
-  
-  .dropdown-content a:hover {
-      background-color: #f1f1f1;
-  }
-  
-  #settings-toggle:checked ~ .dropdown-content {
-      max-height: 200px; /* Максимальная высота раскрывающегося меню */
-  }
-/*---------------------------------------меню справа сверху в углу------------------------------------*/
+}
 
+#settings-toggle {
+    display: none;
+}
 
-  
-/* ----------------------------------------главная таблица-------------------------------------*/
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 180px;
+}
 
-  #main-table{
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+#settings-toggle:checked ~ .dropdown-content {
+    max-height: 200px; /* Максимальная высота раскрывающегося меню */
+}
+
+/* Главная таблица */
+#main-table {
     max-width: 100%;
-  }
-  
-  #wrap-block-left{
-    width: 230px;
-  }
-  
-  #wrap-block-right{
-      width: 1500px;
-  }
-  
-/* ----------------------------------главная таблица--------------------------------------------*/
-  
-  
+}
 
-/*-------------------------------------левая часть таблицы-------------------------------------*/
-  
-  
-  .navmenu li {
-    display: block; /* Каждая ссылка будет на новой строке */
-    margin-bottom: 10px; /* Отступ между кнопками */
-  }
-  
-  .mini_menu nav ul li a span{
-      padding-left: 0 !important;
-  }
-  
-/*--------------------------------------------якорь-------------------------------------------*/
-  
-  footer {
+#wrap-block-left {
+    width: 230px;
+}
+
+#wrap-block-right {
+    width: 1500px;
+}
+/* Левая часть таблицы */
+.navmenu li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.mini_menu nav ul li a span {
+    padding-left: 0 !important;
+}
+
+/* Якорь */
+footer {
     text-align: center;
     padding: 5px;
-    background: #3f4859 ;
-    color:white;
+    background: #3f4859;
+    color: white;
     height: 50px;
     margin-top: 10%;
 }
-
-/*--------------------------------------------якорь-------------------------------------------*/
