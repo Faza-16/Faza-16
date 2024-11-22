@@ -7,93 +7,94 @@ content="width=device-width, initial-scale=1.0">
     <title>Система мониторинга оборудования</title>
     <link rel="stylesheet" href="styles.css"> <!--Подключение CSS -->
 </head>
-<body>
-    <header>
-        <h1 >Мониторинг производственного оборудования</h1> <!-- Заголовок -->
-    </header>
-    <nav>
-        <ul>
-           <li class="btn-new"><a
-href="#dashbroard" id="color-a">Панель управления</a></li> <!-- Ссылки на разделы -->
-           <li class="btn-new"><a href="#reports" >Отчеты</a></li>
-           <li class="btn-new"><a href="#setting" >Настройки</a></li>
+  <body>
+      <header>
+          <h1 >Мониторинг производственного оборудования</h1> <!-- Заголовок -->
+      </header>
+      <nav>
+          <ul>
+            <li class="btn-new"><a href="#dashbroard" id="color-a">Панель управления</a></li> <!-- Ссылки на разделы -->
+            <li class="btn-new"><a href="#reports" >Отчеты</a></li>
+            <li class="btn-new"><a href="#setting" >Настройки</a></li>
 
-        <ul>
-    </nav>
-    <div class="settings-container">
-          <label for="settings-toggle" class="settings-button" id="set-right">☰</label>
-          <input type="checkbox" id="settings-toggle" />
-          <div class="dropdown-content">
-              <a href="#">Профиль</a>
-              <a href="#">Безопасность</a>
-              <a href="#">Язык</a>
-              <a href="#">Тема</a>
-          </div>
-      </div>
-<table>
-  <td id="wrap-block">
-      <aside class="sidebar">
-        <nav>
-          <ul class="navmenu">
-            <li>
-              <a href="/">Главная</a>
-            </li>
-            <li>
-                <a href="/javascript/">JavaScript</a>
-              </li>
-            <li>
-              <a href="/html-css/">HTML/CSS</a>
-            </li>
-            <li>
-              <a href="/html-teplates/">HTML Шаблоны</a>
-            </li>
-            <li>
-              <a href="/nodejs/">Node.JS</a>
-            </li>
-          </aside>
-        </td>
-        <td>
-          <div class="par-bg-cont">
-            <div class="bg-cont">
-              <section id="dashboard">
-                <h2>Панель управления</h2>
-                <a href="statusMachine.html">
-                  <div class="card" id = "box-new">
-                  <h3>Статус оборудования</h3>
-                  <p>Все системы работают исправно! </p> <!-- Статус оборудования -->
-                </div>
-              </a>
-              <div class="card" id = "box-new">
-                  <h3>Производительность</h3>
-                  <p>Производительность:95% </p> <!-- Процент производительности -->
+          <ul>
+      </nav>
+      <div class="settings-container">
+            <label for="settings-toggle" class="settings-button" id="set-right">☰</label>
+            <input type="checkbox" id="settings-toggle" />
+            <div class="dropdown-content">
+                <a href="#">Профиль</a>
+                <a href="#">Безопасность</a>
+                <a href="#">Язык</a>
+                <a href="#">Тема</a>
+            </div>
+        </div>
+    <table id="main-table">
+          <td id="wrap-block-left">
+            <aside class="sidebar">
+              <nav>
+                <ul class="navmenu">
+                  <li>
+                    <a href="index.html">Главная</a>
+                  </li>
+                  <li>
+                      <a href="regist.html">Страница регистрации</a>
+                    </li>
+                  <li>
+                    <a href="/html-css/">HTML/CSS</a>
+                  </li>
+                  <li>
+                    <a href="/html-teplates/">HTML Шаблоны</a>
+                  </li>
+                  <li>
+                    <a href="/nodejs/">Node.JS</a>
+                  </li>
+                </ul>
+              </nav>
+            </aside>
+          </td>
+          <td id="wrap-block-right">
+            <div class="par-bg-cont">
+              <div class="bg-cont">
+                <section id="dashboard">
+                  <h2 class="h-size-pad">Панель управления</h2>
+                  <a href="statusMachine.html">
+                    <div class="card" id = "box-new">
+                    <h3>Статус оборудования</h3>
+                    <p>Все системы работают исправно! </p> <!-- Статус оборудования -->
               </div>
-              <a href="machines.html">
-              <div class= "card" id = "box-new"  >
-                <h3>Добавление станка</h3>
-                 <p>Наши станки оборудованны лучшими ЧПУ</p>
+                </a>
+                <div class="card" id = "box-new">
+                    <h3 class="h3-size-pad">Производительность</h3>
+                    <p>Производительность:95% </p> <!-- Процент производительности -->
+                </div>
+                <a href="machines.html">
+                <div class= "card" id = "box-new"  >
+                  <h3 class="h3-size-pad">Добавление станка</h3>
+                  <p>Наши станки оборудованны лучшими ЧПУ</p>
+                  </section>
+              
+                </a>
+                <section id="reports">
+                  <div class="card" id = "box-new">
+                    <h2>Отчеты</h2>
+                    <p>Здесь будут отчеты </p> <!-- Место для отчетов -->
+                  </div>
+                </section>
+
+                <section id="setting">
+                  <div class="card" id = "box-new">
+                    <h2>Настройки</h2>
+                    <p>Настройки системы будут доступны здесь.</p> <!-- Место для настроек -->
+                  </div>
                 </section>
               </div>
-              </a>
-              <section id="reports">
-                <div class="card" id = "box-new">
-                  <h2>Отчеты</h2>
-                  <p>Здесь будут отчеты </p> <!-- Место для отчетов -->
-                </div>
-              </section>
+          </td>
+    </table>
 
-              <section id="setting">
-                <div class="card" id = "box-new">
-                  <h2>Настройки</h2>
-                  <p>Настройки системы будут доступны здесь.</p> <!-- Место для настроек -->
-                </div>
-              </section>
-            </div>
-        </td>
-      </table>
+        <footer>
+                <p >&copy; 2024 Система мониторинга оборудования</p> <!-- Подвал сайта -->
+        </footer>
 
-      <footer>
-              <p >&copy; 2024 Система мониторинга оборудования</p> <!-- Подвал сайта -->
-      </footer>
-
-</body>
+  </body>
 </html>
