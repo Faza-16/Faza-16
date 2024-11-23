@@ -47,8 +47,17 @@ h2 {
   font-size: 16px;
 }
 
-p {
-  margin: 0px;
+
+input[type="password"],
+input[type="login"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
 #size-img {
@@ -58,7 +67,7 @@ p {
 
 #but-reg {
   margin-left: 100px;
-  margin-top: 75px;
+  margin-top: 15px;
   background-color: rgba(255, 87, 34, 0.3);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -94,7 +103,6 @@ p {
   height: 280px;
   padding: 40px 20px 30px 20px;
   display: inline-block;
-  float: left;
   border-right: 2px dashed #EEEEEE;
   background: #FFFFFF;
   color: #000000;
@@ -137,8 +145,8 @@ p {
 .profile-card .profile-bio {
   width: 175px;
   height: 180px;
+
   display: inline-block;
-  float: right;
   padding: 50px 20px 30px 20px;
   background: #FFFFFF;
   color: #333333;
@@ -149,52 +157,10 @@ p {
   animation: moveIn 1s 3.1s ease forwards;
 }
 
-.profile-social-links {
-  width: 218px;
-  display: inline-block;
-  float: right;
-  margin: 0px;
-  padding: 15px 20px;
-  background: #FFFFFF;
-  margin-top: 50px;
-  text-align: center;
-  opacity: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-animation: moveIn 1s 3.1s ease forwards;
-  animation: moveIn 1s 3.1s ease forwards;
+#pad-lab {
+  margin-top: 13px;
 }
 
-.profile-social-links li {
-  list-style: none;
-  margin: -5px 0px 0px 0px;
-  padding: 0px;
-  float: left;
-  width: 25%;
-  text-align: center;
-}
-
-.profile-social-links li a {
-  display: inline-block;
-  color: red;
-  width: 24px;
-  height: 24px;
-  padding: 6px;
-  position: relative;
-  overflow: hidden !important;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-}
-
-.profile-social-links li a i {
-  position: relative;
-  z-index: 1;
-}
-
-.profile-social-links li a img,
-.profile-social-links li a svg {
-  width: 24px;
-}
 
 @-webkit-keyframes init {
   0% {
@@ -491,7 +457,7 @@ p {
   .profile-card .profile-bio {
     width: auto;
     height: auto;
-    padding: 15px 20px 30px 20px;
+    padding: 15px 35px 30px 40px;
     display: block;
     float: none;
   }
